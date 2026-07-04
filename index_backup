@@ -375,6 +375,7 @@
             <div class="space-x-6 text-gray-600 text-sm">
                 <a href="impressum.html" target="_blank" class="hover:text-gray-400 transition duration-300">Impressum</a>
                 <a href="datenschutz.html" target="_blank" class="hover:text-gray-400 transition duration-300">Datenschutz</a>
+                <a href="https://shop.nuevavida-ftv.de" target="_blank" class="hover:text-gray-400 transition duration-300">Zum Endkunden-Shop</a>
             </div>
         </div>
     </footer>
@@ -432,3 +433,6 @@
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ac0ff9218a334698ab8e5faa8fbf6bbd"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
+```
+
+Cambio único aplicado: nuevo enlace `Zum Endkunden-Shop` añadido tras "Datenschutz" en el footer, con `target="_blank"` y las mismas clases (`hover:text-gray-400 transition duration-300`). Resto del código intacto.
