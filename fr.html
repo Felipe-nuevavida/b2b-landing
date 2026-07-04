@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Vida B2B - Infinity Rose Hearts pour Hôtels de Luxe</title>
+    <link rel="icon" type="image/png" href="logo_gold.png">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            font-family: 'Lato', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 0.05em;
+        }
+        body {
+            background-color: #111111;
+            color: #E8E8E8;
+        }
+        .accent-gold {
+            color: #D4AF37;
+        }
+        .accent-burgundy {
+            color: #8B0000;
+        }
+        .card-dark {
+            background-color: #2A2A2A;
+        }
+        .gold-border {
+            border: 2px solid #D4AF37;
+        }
+        .btn-gold {
+            background-color: #D4AF37;
+            color: #111111;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover {
+            background-color: #E8D4A8;
+            transform: scale(1.05);
+        }
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(139, 0, 0, 0.1) 100%);
+        }
+        .section-divider {
+            background: linear-gradient(to right, transparent, #D4AF37, transparent);
+            height: 1px;
+            margin: 4rem 0;
+        }
+        .success-message {
+            display: none;
+        }
+        .success-message.show {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .form-container {
+            transition: opacity 0.5s ease-in-out;
+        }
+        .form-container.hidden {
+            display: none;
+        }
+        .loading-spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(17, 17, 17, 0.3);
+            border-radius: 50%;
+            border-top-color: #111111;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 card-dark border-b border-gray-700 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="logo_gold.png" alt="Nueva Vida Logo" class="h-10 w-auto">
+                <h1 class="text-3xl font-bold accent-gold tracking-widest">NUEVA VIDA</h1>
+            </div>
+            <nav class="flex items-center space-x-6">
+                <a href="#formulario" class="text-gray-300 hover:accent-gold transition duration-300 font-semibold">B2B Portal</a>
+                
+                <!-- Selector de Idiomas -->
+                <div class="flex items-center space-x-2 text-sm font-bold border-l border-gray-600 pl-6">
+                    <a href="index.html" class="text-gray-400 hover:text-[#D4AF37] transition">DE</a>
+                    <span class="text-gray-600">|</span>
+                    <a href="en.html" class="text-gray-400 hover:text-[#D4AF37] transition">EN</a>
+                    <span class="text-gray-600">|</span>
+                    <a href="fr.html" class="text-[#D4AF37] transition">FR</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative min-h-screen flex items-center justify-center hero-overlay pt-20">
+        <div class="absolute inset-0 opacity-30">
+            <img src="08_lifestyle_premium.png" alt="Infinity Rose Heart Lifestyle" class="w-full h-full object-cover">
+        </div>
+        <div class="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 z-10">
+            <h2 class="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                Des émotions inoubliables<br>
+                <span class="accent-gold">Sans contrainte opérationnelle</span>
+            </h2>
+            <p class="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                L'Infinity Rose Heart exclusif pour vos suites lune de miel et vos hôtes VIP. 1 à 3 ans de beauté impeccable, sans aucun entretien.
+            </p>
+            <a href="#formulario" class="inline-block px-8 py-4 btn-gold rounded-lg font-bold text-lg shadow-lg hover:shadow-xl">
+                Demander des informations commerciales
+            </a>
+        </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider"></div>
+
+    <!-- COMPARATIVE SECTION -->
+    <section class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <h2 class="text-4xl sm:text-5xl font-bold text-center text-white mb-12">
+            L'évolution du<br><span class="accent-gold">cadeau de bienvenue</span>
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Tarjeta 1: Frische Blumen (Negativo) -->
+            <div class="card-dark rounded-lg p-8 border border-gray-600 hover:border-gray-500 transition duration-300">
+                <h3 class="text-2xl font-bold text-gray-400 mb-6">Fleurs fraîches</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-red-500 text-2xl mr-4">❌</span>
+                        <span class="text-gray-300">Se fanent en quelques jours seulement</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-red-500 text-2xl mr-4">❌</span>
+                        <span class="text-gray-300">Mobilisent un temps précieux pour l'équipe de housekeeping (arrosage quotidien)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-red-500 text-2xl mr-4">❌</span>
+                        <span class="text-gray-300">Risque de taches d'eau sur un mobilier haut de gamme</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-red-500 text-2xl mr-4">❌</span>
+                        <span class="text-gray-300">Coûts récurrents élevés</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Tarjeta 2: Infinity Rosen (Positivo) -->
+            <div class="card-dark rounded-lg p-8 gold-border hover:shadow-lg hover:shadow-yellow-700/20 transition duration-300">
+                <h3 class="text-2xl font-bold accent-gold mb-6">Roses Infinity Nueva Vida</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="accent-gold text-2xl mr-4">✅</span>
+                        <span class="text-gray-300">1 à 3 ans de beauté impeccable</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="accent-gold text-2xl mr-4">✅</span>
+                        <span class="text-gray-300">0% d'entretien (ni eau, ni salissures)</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="accent-gold text-2xl mr-4">✅</span>
+                        <span class="text-gray-300">100% de roses véritables et préservées, originaires d'Équateur</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="accent-gold text-2xl mr-4">✅</span>
+                        <span class="text-gray-300">Une valeur perçue exceptionnellement élevée pour vos hôtes</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider"></div>
+
+    <!-- TRUST SECTION -->
+    <section class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <h2 class="text-3xl sm:text-4xl font-bold text-center text-white mb-12">Pourquoi les meilleurs hôtels font confiance à <span class="accent-gold">Nueva Vida</span></h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Tarjeta 1: Profitables Upselling -->
+            <div class="card-dark rounded-lg border border-gray-700 overflow-hidden hover:border-[#D4AF37] transition duration-300">
+                <img src="10_upselling_suite.png" alt="Une vente additionnelle rentable" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-3">Une vente additionnelle rentable</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">L'écrin élégant, noir mat avec finition dorée, constitue la décoration de chambre luxueuse par excellence. Idéal comme option premium à proposer avec vos forfaits romantiques. Générez un chiffre d'affaires additionnel – prêt à l'emploi, carte de vœux incluse.</p>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2: Allergikerfreundlich & Nachhaltig -->
+            <div class="card-dark rounded-lg border border-gray-700 overflow-hidden hover:border-[#D4AF37] transition duration-300">
+                <img src="11_allergiker_spa.png" alt="Sans allergènes" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-3">Sans allergènes &amp; durable</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Ni plastique, ni soie. 100% de roses véritables, préservées à la glycérine végétale. Sans odeur, sans pollen, elles conservent leur beauté pendant 1 à 3 ans. Un bilan carbone nettement supérieur à celui des fleurs coupées.</p>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3: Sichere B2B-Logistik -->
+            <div class="card-dark rounded-lg border border-gray-700 overflow-hidden hover:border-[#D4AF37] transition duration-300">
+                <img src="12_logistik_event.png" alt="Une logistique B2B fiable" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-white mb-3">Une logistique B2B fiable</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Récoltées à l'apogée de leur floraison en Équateur et façonnées entièrement à la main. Grâce à notre entrepôt local en Allemagne, nous garantissons une scalabilité fiable et un réapprovisionnement rapide pour toute votre saison événementielle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider"></div>
+
+    <!-- FORMULARIO SECTION -->
+    <section id="formulario" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <!-- Imagen -->
+            <div class="hidden md:block order-last">
+                <img src="04_complete_set_v2.png" alt="Complete Infinity Rose Set" class="w-full h-auto rounded-lg shadow-2xl">
+            </div>
+
+            <!-- Formulario -->
+            <div class="order-first md:order-first">
+                <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">
+                    Demande B2B
+                </h2>
+                <p class="text-gray-300 mb-12 text-lg leading-relaxed">
+                    Demandez nos tarifs préférentiels B2B ou renseignez-vous sur la possibilité d'un échantillon gratuit pour votre hôtel.
+                </p>
+
+                <!-- FORMULARIO CONTAINER -->
+                <div class="form-container" id="formContainer">
+                    <form id="b2bForm" class="space-y-6 card-dark rounded-lg p-8 border border-gray-600">
+                        <!-- Name des Hotels -->
+                        <div>
+                            <label for="hotel_name" class="block text-sm font-semibold text-gray-300 mb-2">
+                                Nom de l'hôtel <span class="text-red-500">*</span>
+                            </label>
+                            <input 
+                                type="text" 
+                                id="hotel_name" 
+                                name="hotel_name" 
+                                required 
+                                placeholder="ex. Hôtel Ritz Paris"
+                                class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
+                            >
+                        </div>
+
+                        <!-- Ansprechpartner / Position -->
+                        <div>
+                            <label for="contact_person" class="block text-sm font-semibold text-gray-300 mb-2">
+                                Interlocuteur / Fonction <span class="text-red-500">*</span>
+                            </label>
+                            <input 
+                                type="text" 
+                                id="contact_person" 
+                                name="contact_person" 
+                                required 
+                                placeholder="ex. Marie Dupont, Guest Relations Manager"
+                                class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
+                            >
+                        </div>
+
+                        <!-- Geschäftliche E-Mail -->
+                        <div>
+                            <label for="email" class="block text-sm font-semibold text-gray-300 mb-2">
+                                E-mail professionnel <span class="text-red-500">*</span>
+                            </label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required 
+                                placeholder="marie.dupont@hotel.fr"
+                                class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
+                            >
+                        </div>
+
+                        <!-- Interesse an (Dropdown) - MEJORADO -->
+                        <div>
+                            <label for="interest" class="block text-sm font-semibold text-gray-300 mb-2">
+                                Intérêt pour <span class="text-red-500">*</span>
+                            </label>
+                            <select 
+                                id="interest" 
+                                name="interest" 
+                                required 
+                                class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
+                            >
+                                <option value="" disabled selected class="text-gray-500">-- Veuillez sélectionner --</option>
+                                <option value="Musterbox">Demander un échantillon gratuit</option>
+                                <option value="Testbestellung">Commande test (50-100 pièces)</option>
+                                <option value="Grossbestellung">Planifier une commande importante (500+ pièces)</option>
+                            </select>
+                        </div>
+
+                        <!-- Nachricht (Optional) -->
+                        <div>
+                            <label for="message" class="block text-sm font-semibold text-gray-300 mb-2">
+                                Message <span class="text-gray-500">(Facultatif)</span>
+                            </label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                rows="5" 
+                                placeholder="Partagez avec nous vos besoins spécifiques ou vos questions..."
+                                class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300 resize-none"
+                            ></textarea>
+                        </div>
+
+                        <!-- Submit Button - TEXTO MEJORADO -->
+                        <button 
+                          type="submit" 
+                          id="submitBtn"
+                          class="w-full px-6 py-4 btn-gold rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition duration-300"
+                         >
+                          Faire une demande sans engagement
+                         </button>
+
+
+                        <!-- CONFIANZA FINANCIERA - MEJORADO -->
+                        <p class="text-xs text-gray-400 text-center mt-4 italic">
+                            Achat sur facture pour les hôtels (net à 14 jours)
+                        </p>
+
+                        <p class="text-xs text-gray-500 text-center mt-4">
+                            Vos données sont traitées de manière confidentielle et utilisées uniquement pour le traitement de votre demande.
+                        </p>
+                    </form>
+                </div>
+
+                <!-- SUCCESS MESSAGE - MEJORADO -->
+                <div class="success-message" id="successMessage">
+                    <div class="card-dark rounded-lg p-8 border-2 gold-border">
+                        <h3 class="text-2xl font-bold accent-gold mb-4">✓ Demande reçue</h3>
+                        <p class="text-gray-300 text-lg leading-relaxed">
+                            Merci. Notre équipe B2B vous contactera prochainement afin de coordonner l'envoi de votre échantillon gratuit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider"></div>
+
+    <!-- FOOTER -->
+    <footer class="card-dark border-t border-gray-700 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-gray-500 mb-4">
+                © 2026 Nueva Vida - Roses Éternelles. Felipe Alonso (Entreprise individuelle).
+            </p>
+            <div class="space-x-6 text-gray-600 text-sm">
+                <a href="impressum.html" target="_blank" class="hover:text-gray-400 transition duration-300">Mentions légales</a>
+                <a href="datenschutz.html" target="_blank" class="hover:text-gray-400 transition duration-300">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT AJAX MEJORADO -->
+    <script>
+        const form = document.getElementById('b2bForm');
+        const formContainer = document.getElementById('formContainer');
+        const successMessage = document.getElementById('successMessage');
+        const submitBtn = document.getElementById('submitBtn');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            // Cambiar botón a estado de carga
+            const originalText = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span class="loading-spinner"></span> Envoi en cours...';
+
+            // Recopilar datos del formulario
+            const formData = new FormData(form);
+
+            try {
+                // Enviar a Formspree via Fetch API
+                const response = await fetch('https://formspree.io/f/xzdlrako', {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                    },
+                    body: formData
+                });
+
+                if (response.ok) {
+                    // ÉXITO: Ocultar formulario, mostrar mensaje
+                    formContainer.classList.add('hidden');
+                    successMessage.classList.add('show');
+
+                    // Scroll suave al mensaje de éxito
+                    successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                } else {
+                    // Error en respuesta
+                    alert('Un problème est survenu lors de l\'envoi. Veuillez réessayer plus tard.');
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = originalText;
+                }
+            } catch (error) {
+                // Error de red/CORS
+                console.error('Error al enviar:', error);
+                alert('Erreur de connexion. Veuillez vérifier votre connexion internet et réessayer.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            }
+        });
+    </script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ac0ff9218a334698ab8e5faa8fbf6bbd"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
