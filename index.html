@@ -27,33 +27,57 @@
         }
         .accent-gold {
             color: #D4AF37;
+            text-shadow: 0 0 8px rgba(212, 175, 55, 0.35), 0 0 2px rgba(212, 175, 55, 0.25);
         }
         .accent-burgundy {
             color: #8B0000;
         }
         .card-dark {
-            background-color: #2A2A2A;
+            background: linear-gradient(145deg, #1f1f1f, #2a2a2a);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45), 0 1px 0 rgba(255, 255, 255, 0.03) inset;
+            transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+        }
+        .card-dark:hover {
+            transform: translateY(-3px);
+            border-color: #D4AF37 !important;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 0 18px rgba(212, 175, 55, 0.18), 0 1px 0 rgba(255, 255, 255, 0.04) inset;
         }
         .gold-border {
             border: 2px solid #D4AF37;
+            box-shadow: 0 0 12px rgba(212, 175, 55, 0.25), inset 0 0 12px rgba(212, 175, 55, 0.08);
         }
         .btn-gold {
-            background-color: #D4AF37;
+            background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 45%, #AA7C11 100%);
             color: #111111;
             font-weight: 700;
+            box-shadow: 0 4px 14px rgba(170, 124, 17, 0.4), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
             transition: all 0.3s ease;
         }
         .btn-gold:hover {
-            background-color: #E8D4A8;
+            background: linear-gradient(135deg, #F8EFC8 0%, #E8C55A 45%, #C4941A 100%);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.55), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
             transform: scale(1.05);
         }
         .hero-overlay {
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(139, 0, 0, 0.1) 100%);
+            background: linear-gradient(135deg, rgba(20, 20, 20, 0.85) 0%, rgba(40, 10, 14, 0.55) 100%);
         }
         .section-divider {
+            position: relative;
             background: linear-gradient(to right, transparent, #D4AF37, transparent);
             height: 1px;
             margin: 4rem 0;
+        }
+        .section-divider::after {
+            content: "♦";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #111111;
+            color: #D4AF37;
+            font-size: 0.9rem;
+            padding: 0 1rem;
+            text-shadow: 0 0 6px rgba(212, 175, 55, 0.5);
         }
         .success-message {
             display: none;
