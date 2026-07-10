@@ -123,10 +123,10 @@
         <div class="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 z-10">
             <h2 class="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 leading-tight">
                 Unforgettable Emotions<br>
-                <span class="accent-gold">Without the Operational Effort</span>
+                <span class="accent-gold">Without the Operational Burden</span>
             </h2>
             <p class="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                The exclusive Infinity Rose Heart for your honeymoon suites and VIP guests. 1 to 3 years of flawless beauty with zero maintenance.
+                The exclusive Infinity Rose Heart for your honeymoon suites and VIP guests. One to three years of flawless beauty, with zero maintenance required.
             </p>
             <a href="#formulario" class="inline-block px-8 py-4 btn-gold rounded-lg font-bold text-lg shadow-lg hover:shadow-xl">
                 Request Commercial Information
@@ -150,15 +150,15 @@
                 <ul class="space-y-4">
                     <li class="flex items-start">
                         <span class="text-red-500 text-2xl mr-4">❌</span>
-                        <span class="text-gray-300">Wilt within just a few days</span>
+                        <span class="text-gray-300">Wilt within a matter of days</span>
                     </li>
                     <li class="flex items-start">
                         <span class="text-red-500 text-2xl mr-4">❌</span>
-                        <span class="text-gray-300">Consume valuable housekeeping time (daily watering)</span>
+                        <span class="text-gray-300">Consume valuable time from your housekeeping team (daily watering)</span>
                     </li>
                     <li class="flex items-start">
                         <span class="text-red-500 text-2xl mr-4">❌</span>
-                        <span class="text-gray-300">Risk of water stains on expensive interiors</span>
+                        <span class="text-gray-300">Risk of water stains on fine interiors</span>
                     </li>
                     <li class="flex items-start">
                         <span class="text-red-500 text-2xl mr-4">❌</span>
@@ -173,19 +173,19 @@
                 <ul class="space-y-4">
                     <li class="flex items-start">
                         <span class="accent-gold text-2xl mr-4">✅</span>
-                        <span class="text-gray-300">1 to 3 years of flawless beauty</span>
+                        <span class="text-gray-300">One to three years of flawless beauty</span>
                     </li>
                     <li class="flex items-start">
                         <span class="accent-gold text-2xl mr-4">✅</span>
-                        <span class="text-gray-300">0% maintenance (no water, no mess)</span>
+                        <span class="text-gray-300">Zero maintenance required (no water, no mess)</span>
                     </li>
                     <li class="flex items-start">
                         <span class="accent-gold text-2xl mr-4">✅</span>
-                        <span class="text-gray-300">100% real, preserved premium roses from Ecuador</span>
+                        <span class="text-gray-300">100% genuine, preserved premium roses from Ecuador</span>
                     </li>
                     <li class="flex items-start">
                         <span class="accent-gold text-2xl mr-4">✅</span>
-                        <span class="text-gray-300">Exceptionally high perceived value for your guests</span>
+                        <span class="text-gray-300">Exceptional perceived value for your guests</span>
                     </li>
                 </ul>
             </div>
@@ -197,7 +197,7 @@
 
     <!-- TRUST SECTION -->
     <section class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
-        <h2 class="text-3xl sm:text-4xl font-bold text-center text-white mb-12">Why Top Hotels Trust <span class="accent-gold">Nueva Vida</span></h2>
+        <h2 class="text-3xl sm:text-4xl font-bold text-center text-white mb-12">Why Leading Hotels Trust <span class="accent-gold">Nueva Vida</span></h2>
 
         <div class="grid md:grid-cols-3 gap-8">
             <!-- Tarjeta 1: Profitables Upselling -->
@@ -205,7 +205,7 @@
                 <img src="10_upselling_suite.png" alt="Profitable Upselling" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-bold text-white mb-3">Profitable Upselling</h3>
-                    <p class="text-gray-400 leading-relaxed text-sm">The elegant matte black box with gold branding makes for the perfect luxurious room decoration. Ideal as a bookable premium add-on for romantic packages. Generate additional revenue – ready to use immediately, complete with a greeting card.</p>
+                    <p class="text-gray-400 leading-relaxed text-sm">The elegant matte black box with gold branding is the perfect luxurious accent for any room. Ideal as a bookable premium add-on for romantic packages, it generates additional revenue and arrives ready to use, complete with a greeting card.</p>
                 </div>
             </div>
 
@@ -213,8 +213,8 @@
             <div class="card-dark rounded-lg border border-gray-700 overflow-hidden hover:border-[#D4AF37] transition duration-300">
                 <img src="11_allergiker_spa.png" alt="Allergy-Friendly" class="w-full h-48 object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-bold text-white mb-3">Allergy-Friendly &amp; Sustainable</h3>
-                    <p class="text-gray-400 leading-relaxed text-sm">No plastic, no silk. 100% real roses, preserved with plant-based glycerine. They are odourless, pollen-free, and retain their beauty for 1 to 3 years. A far superior carbon footprint compared to cut flowers.</p>
+                    <h3 class="text-xl font-bold text-white mb-3">Allergy-Friendly & Sustainable</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">No plastic, no silk. 100% genuine roses, preserved with plant-based glycerin. Odorless and pollen-free, they retain their beauty for one to three years, with a far smaller environmental footprint than cut flowers.</p>
                 </div>
             </div>
 
@@ -223,12 +223,63 @@
                 <img src="12_logistik_event.png" alt="Reliable B2B Logistics" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-bold text-white mb-3">Reliable B2B Logistics</h3>
-                    <p class="text-gray-400 leading-relaxed text-sm">Harvested at the peak of their bloom in Ecuador and crafted entirely by hand. With our local warehouse in Germany, we guarantee reliable scalability and fast replenishment throughout your event season.</p>
+                    <p class="text-gray-400 leading-relaxed text-sm">Harvested at their peak bloom in Ecuador and handcrafted with care. With our local warehouse in Germany, we guarantee dependable scalability and fast replenishment throughout your event season.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider"></div>
+
+    <!-- DIFFERENTIATION & CO-BRANDING SECTION -->
+    <section class="py-12 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="card-dark rounded-2xl border border-[#D4AF37] p-8 md:p-12 relative overflow-hidden shadow-2xl">
+            <!-- Fondo decorativo sutil -->
+            <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-[#D4AF37] opacity-5 rounded-full blur-3xl"></div>
+            
+            <div class="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+                <!-- Columna de Texto -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                        The Modern Approach: <span class="accent-gold">Sustainable Elegance</span>
+                    </h2>
+                    <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+                        Cut flowers no longer meet today's standards. They generate waste, consume your housekeeping team's valuable time, and wilt within days. Set yourself apart from the competition by offering your guests genuine, preserved roses that bloom flawlessly for one to three years — a clear statement of modern luxury and sustainability.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 mt-1">
+                                <span class="text-[#D4AF37] text-2xl">🌿</span>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-lg">Environmental Footprint</h4>
+                                <p class="text-gray-400 text-sm mt-1">A dramatic reduction in floral waste — an investment that lasts for years.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 mt-1">
+                                <span class="text-[#D4AF37] text-2xl">👑</span>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-lg">Exclusive Co-Branding</h4>
+                                <p class="text-gray-400 text-sm mt-1">From a minimum order quantity, we personalize the box and greeting card with your hotel's logo. Your brand, our craftsmanship.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Columna de Imagen -->
+                <div class="relative transform transition duration-500 hover:scale-105">
+                    <img src="infinity-rose-hotel-cobranding.png" alt="Hotel Co-Branding Infinity Roses" class="w-full h-auto rounded-lg shadow-2xl border border-gray-700">
+                    <div class="absolute -bottom-4 -right-4 bg-[#D4AF37] text-[#111111] text-xs font-bold px-4 py-2 rounded shadow-lg uppercase tracking-wider">
+                        Sample Mockup
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- SECTION DIVIDER -->
     <div class="section-divider"></div>
 
@@ -243,10 +294,10 @@
             <!-- Formulario -->
             <div class="order-first md:order-first">
                 <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">
-                    B2B Enquiry
+                    B2B Inquiry
                 </h2>
                 <p class="text-gray-300 mb-12 text-lg leading-relaxed">
-                    Request our tiered B2B pricing or explore the possibility of a complimentary sample for your hotel.
+                    Request our B2B tiered pricing or explore the option of a complimentary sample for your hotel.
                 </p>
 
                 <!-- FORMULARIO CONTAINER -->
@@ -262,7 +313,7 @@
                                 id="hotel_name" 
                                 name="hotel_name" 
                                 required 
-                                placeholder="e.g. The Shelbourne Hotel"
+                                placeholder="e.g. Hotel Adlon Kempinski"
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
                             >
                         </div>
@@ -277,7 +328,7 @@
                                 id="contact_person" 
                                 name="contact_person" 
                                 required 
-                                placeholder="e.g. James Murphy, Guest Relations Manager"
+                                placeholder="e.g. Hans Schmidt, Guest Relations Manager"
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
                             >
                         </div>
@@ -292,7 +343,7 @@
                                 id="email" 
                                 name="email" 
                                 required 
-                                placeholder="james.murphy@hotel.com"
+                                placeholder="hans.schmidt@hotel.com"
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
                             >
                         </div>
@@ -309,9 +360,9 @@
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
                             >
                                 <option value="" disabled selected class="text-gray-500">-- Please select --</option>
-                                <option value="Musterbox">Request a Free Sample Box</option>
-                                <option value="Testbestellung">Trial Order (50-100 units)</option>
-                                <option value="Grossbestellung">Plan a Bulk Order (500+ units)</option>
+                                <option value="Musterbox">Request a complimentary sample</option>
+                                <option value="Testbestellung">Trial order (50-100 units)</option>
+                                <option value="Grossbestellung">Planning a bulk order (500+ units)</option>
                             </select>
                         </div>
 
@@ -324,9 +375,16 @@
                                 id="message" 
                                 name="message" 
                                 rows="5" 
-                                placeholder="Share your specific requirements or questions with us..."
+                                placeholder="Tell us about your specific requirements or questions..."
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300 resize-none"
                             ></textarea>
+                        </div>
+
+                        <div style="margin-bottom: 15px; display: flex; align-items: flex-start; gap: 10px;">
+                            <input type="checkbox" id="b2b_confirm" name="b2b_confirm" required style="margin-top: 4px;">
+                            <label for="b2b_confirm" style="color: #a0aec0; font-size: 14px; line-height: 1.4;">
+                                I confirm that I am submitting this inquiry as a business/commercial entity, not as a consumer.
+                            </label>
                         </div>
 
                         <!-- Submit Button - TEXTO MEJORADO -->
@@ -335,17 +393,17 @@
                           id="submitBtn"
                           class="w-full px-6 py-4 btn-gold rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition duration-300"
                          >
-                          Enquire Now, No Obligation
+                          Send a No-Obligation Inquiry
                          </button>
 
 
                         <!-- CONFIANZA FINANCIERA - MEJORADO -->
                         <p class="text-xs text-gray-400 text-center mt-4 italic">
-                            Purchase on invoice for hotels (14 days net)
+                            Invoice payment terms available for hotels (14 days net)
                         </p>
 
                         <p class="text-xs text-gray-500 text-center mt-4">
-                            Your data is treated confidentially and used solely to process your enquiry.
+                            Your information is treated confidentially and used solely to process your inquiry.
                         </p>
                     </form>
                 </div>
@@ -353,9 +411,9 @@
                 <!-- SUCCESS MESSAGE - MEJORADO -->
                 <div class="success-message" id="successMessage">
                     <div class="card-dark rounded-lg p-8 border-2 gold-border">
-                        <h3 class="text-2xl font-bold accent-gold mb-4">✓ Enquiry Received</h3>
+                        <h3 class="text-2xl font-bold accent-gold mb-4">✓ Inquiry Received</h3>
                         <p class="text-gray-300 text-lg leading-relaxed">
-                            Thank you. Our B2B team will be in touch with you shortly to arrange delivery of your complimentary sample box.
+                            Thank you. Our B2B team will be in touch with you shortly to arrange the shipment of your complimentary sample.
                         </p>
                     </div>
                 </div>
@@ -370,11 +428,13 @@
     <footer class="card-dark border-t border-gray-700 py-12 px-4 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto text-center">
             <p class="text-gray-500 mb-4">
-                © 2026 Nueva Vida - Eternal Roses. Felipe Alonso (Sole Proprietor).
+                © 2026 Nueva Vida - Eternal Roses. Felipe Alonso (Sole Proprietorship).
             </p>
             <div class="space-x-6 text-gray-600 text-sm">
                 <a href="impressum.html" target="_blank" class="hover:text-gray-400 transition duration-300">Legal Notice</a>
+                <a href="agb-en.html" target="_blank" class="hover:text-gray-400 transition duration-300">Terms &amp; Conditions</a>
                 <a href="datenschutz.html" target="_blank" class="hover:text-gray-400 transition duration-300">Privacy Policy</a>
+                <a href="https://shop.nuevavida-ftv.de/en.html" target="_blank" class="hover:text-gray-400 transition duration-300">Visit the Consumer Shop</a>
             </div>
         </div>
     </footer>
@@ -416,7 +476,7 @@
                     successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 } else {
                     // Error en respuesta
-                    alert('There was a problem sending your enquiry. Please try again later.');
+                    alert('There was a problem sending your request. Please try again later.');
                     submitBtn.disabled = false;
                     submitBtn.textContent = originalText;
                 }
