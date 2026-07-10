@@ -97,11 +97,11 @@
     <header class="sticky top-0 z-50 card-dark border-b border-gray-700 shadow-lg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <img src="logo_gold.png" alt="Nueva Vida Logo" class="h-10 w-auto">
+                <img src="logo_gold.png" alt="Logo Nueva Vida" class="h-10 w-auto">
                 <h1 class="text-3xl font-bold accent-gold tracking-widest">NUEVA VIDA</h1>
             </div>
             <nav class="flex items-center space-x-6">
-                <a href="#formulario" class="text-gray-300 hover:accent-gold transition duration-300 font-semibold">B2B Portal</a>
+                <a href="#formulario" class="text-gray-300 hover:accent-gold transition duration-300 font-semibold">Portail B2B</a>
                 
                 <!-- Selector de Idiomas -->
                 <div class="flex items-center space-x-2 text-sm font-bold border-l border-gray-600 pl-6">
@@ -118,15 +118,15 @@
     <!-- HERO SECTION -->
     <section class="relative min-h-screen flex items-center justify-center hero-overlay pt-20">
         <div class="absolute inset-0 opacity-30">
-            <img src="08_lifestyle_premium.png" alt="Infinity Rose Heart Lifestyle" class="w-full h-full object-cover">
+            <img src="08_lifestyle_premium.png" alt="Ambiance Infinity Rose Heart" class="w-full h-full object-cover">
         </div>
         <div class="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 z-10">
             <h2 class="text-5xl sm:text-6xl md:text-7xl font-bold text-white mb-6 leading-tight">
                 Des émotions inoubliables<br>
-                <span class="accent-gold">Sans contrainte opérationnelle</span>
+                <span class="accent-gold">Sans aucune contrainte opérationnelle</span>
             </h2>
             <p class="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                L'Infinity Rose Heart exclusif pour vos suites lune de miel et vos hôtes VIP. 1 à 3 ans de beauté impeccable, sans aucun entretien.
+                L'Infinity Rose Heart exclusif pour vos suites lune de miel et vos hôtes VIP. De 1 à 3 ans de beauté impeccable, sans aucun entretien.
             </p>
             <a href="#formulario" class="inline-block px-8 py-4 btn-gold rounded-lg font-bold text-lg shadow-lg hover:shadow-xl">
                 Demander des informations commerciales
@@ -150,11 +150,11 @@
                 <ul class="space-y-4">
                     <li class="flex items-start">
                         <span class="text-red-500 text-2xl mr-4">❌</span>
-                        <span class="text-gray-300">Se fanent en quelques jours seulement</span>
+                        <span class="text-gray-300">Se fanent après quelques jours seulement</span>
                     </li>
                     <li class="flex items-start">
                         <span class="text-red-500 text-2xl mr-4">❌</span>
-                        <span class="text-gray-300">Mobilisent un temps précieux pour l'équipe de housekeeping (arrosage quotidien)</span>
+                        <span class="text-gray-300">Mobilisent un temps précieux de vos équipes de housekeeping (arrosage quotidien)</span>
                     </li>
                     <li class="flex items-start">
                         <span class="text-red-500 text-2xl mr-4">❌</span>
@@ -173,19 +173,19 @@
                 <ul class="space-y-4">
                     <li class="flex items-start">
                         <span class="accent-gold text-2xl mr-4">✅</span>
-                        <span class="text-gray-300">1 à 3 ans de beauté impeccable</span>
+                        <span class="text-gray-300">De 1 à 3 ans de beauté impeccable</span>
                     </li>
                     <li class="flex items-start">
                         <span class="accent-gold text-2xl mr-4">✅</span>
-                        <span class="text-gray-300">0% d'entretien (ni eau, ni salissures)</span>
+                        <span class="text-gray-300">0% d'entretien (ni eau, ni saleté)</span>
                     </li>
                     <li class="flex items-start">
                         <span class="accent-gold text-2xl mr-4">✅</span>
-                        <span class="text-gray-300">100% de roses véritables et préservées, originaires d'Équateur</span>
+                        <span class="text-gray-300">100% de véritables roses premium conservées, originaires d'Équateur</span>
                     </li>
                     <li class="flex items-start">
                         <span class="accent-gold text-2xl mr-4">✅</span>
-                        <span class="text-gray-300">Une valeur perçue exceptionnellement élevée pour vos hôtes</span>
+                        <span class="text-gray-300">Valeur perçue exceptionnellement élevée pour vos hôtes</span>
                     </li>
                 </ul>
             </div>
@@ -202,28 +202,28 @@
         <div class="grid md:grid-cols-3 gap-8">
             <!-- Tarjeta 1: Profitables Upselling -->
             <div class="card-dark rounded-lg border border-gray-700 overflow-hidden hover:border-[#D4AF37] transition duration-300">
-                <img src="10_upselling_suite.png" alt="Une vente additionnelle rentable" class="w-full h-48 object-cover">
+                <img src="10_upselling_suite.png" alt="Upselling rentable" class="w-full h-48 object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-bold text-white mb-3">Une vente additionnelle rentable</h3>
-                    <p class="text-gray-400 leading-relaxed text-sm">L'écrin élégant, noir mat avec finition dorée, constitue la décoration de chambre luxueuse par excellence. Idéal comme option premium à proposer avec vos forfaits romantiques. Générez un chiffre d'affaires additionnel – prêt à l'emploi, carte de vœux incluse.</p>
+                    <h3 class="text-xl font-bold text-white mb-3">Un upselling rentable</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">L'élégant coffret noir mat au branding doré constitue la décoration d'ambiance luxueuse par excellence. Idéal comme extra premium à réserver pour vos offres romantiques. Générez un chiffre d'affaires additionnel, prêt à l'emploi et accompagné d'une carte de vœux.</p>
                 </div>
             </div>
 
             <!-- Tarjeta 2: Allergikerfreundlich & Nachhaltig -->
             <div class="card-dark rounded-lg border border-gray-700 overflow-hidden hover:border-[#D4AF37] transition duration-300">
-                <img src="11_allergiker_spa.png" alt="Sans allergènes" class="w-full h-48 object-cover">
+                <img src="11_allergiker_spa.png" alt="Adapté aux allergiques" class="w-full h-48 object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-bold text-white mb-3">Sans allergènes &amp; durable</h3>
-                    <p class="text-gray-400 leading-relaxed text-sm">Ni plastique, ni soie. 100% de roses véritables, préservées à la glycérine végétale. Sans odeur, sans pollen, elles conservent leur beauté pendant 1 à 3 ans. Un bilan carbone nettement supérieur à celui des fleurs coupées.</p>
+                    <h3 class="text-xl font-bold text-white mb-3">Adapté aux allergies & durable</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Ni plastique, ni soie. 100% de véritables roses, conservées à la glycérine végétale. Neutres en odeur, sans pollen, elles conservent leur beauté de 1 à 3 ans. Un bilan carbone remarquable comparé aux fleurs coupées.</p>
                 </div>
             </div>
 
             <!-- Tarjeta 3: Sichere B2B-Logistik -->
             <div class="card-dark rounded-lg border border-gray-700 overflow-hidden hover:border-[#D4AF37] transition duration-300">
-                <img src="12_logistik_event.png" alt="Une logistique B2B fiable" class="w-full h-48 object-cover">
+                <img src="12_logistik_event.png" alt="Logistique B2B sécurisée" class="w-full h-48 object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-bold text-white mb-3">Une logistique B2B fiable</h3>
-                    <p class="text-gray-400 leading-relaxed text-sm">Récoltées à l'apogée de leur floraison en Équateur et façonnées entièrement à la main. Grâce à notre entrepôt local en Allemagne, nous garantissons une scalabilité fiable et un réapprovisionnement rapide pour toute votre saison événementielle.</p>
+                    <h3 class="text-xl font-bold text-white mb-3">Une logistique B2B sécurisée</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Cueillies en Équateur au sommet de leur éclosion et façonnées à la main. Grâce à notre entrepôt local en Allemagne, nous garantissons une évolutivité fiable et un réapprovisionnement rapide pour votre saison d'événements.</p>
                 </div>
             </div>
         </div>
@@ -232,12 +232,63 @@
     <!-- SECTION DIVIDER -->
     <div class="section-divider"></div>
 
+    <!-- DIFFERENTIATION & CO-BRANDING SECTION -->
+    <section class="py-12 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="card-dark rounded-2xl border border-[#D4AF37] p-8 md:p-12 relative overflow-hidden shadow-2xl">
+            <!-- Fondo decorativo sutil -->
+            <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-[#D4AF37] opacity-5 rounded-full blur-3xl"></div>
+            
+            <div class="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+                <!-- Columna de Texto -->
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                        La voie moderne : <span class="accent-gold">une élégance durable</span>
+                    </h2>
+                    <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+                        Les fleurs coupées ne sont plus d'actualité. Elles génèrent des déchets, mobilisent un temps précieux de vos équipes de housekeeping et se fanent après quelques jours seulement. Démarquez-vous de la concurrence : offrez à vos hôtes de véritables roses conservées, qui restent impeccables de 1 à 3 ans. Une déclaration claire en faveur d'un luxe moderne et durable.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 mt-1">
+                                <span class="text-[#D4AF37] text-2xl">🌿</span>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-lg">Empreinte écologique</h4>
+                                <p class="text-gray-400 text-sm mt-1">Une réduction drastique des déchets floraux. Un investissement qui dure des années.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0 mt-1">
+                                <span class="text-[#D4AF37] text-2xl">👑</span>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-lg">Co-branding exclusif</h4>
+                                <p class="text-gray-400 text-sm mt-1">À partir d'une quantité minimale de commande, nous personnalisons le coffret et la carte de vœux avec le logo de votre hôtel. Votre marque, notre savoir-faire.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Columna de Imagen -->
+                <div class="relative transform transition duration-500 hover:scale-105">
+                    <img src="infinity-rose-hotel-cobranding.png" alt="Co-branding hôtelier Infinity Roses" class="w-full h-auto rounded-lg shadow-2xl border border-gray-700">
+                    <div class="absolute -bottom-4 -right-4 bg-[#D4AF37] text-[#111111] text-xs font-bold px-4 py-2 rounded shadow-lg uppercase tracking-wider">
+                        Exemple de maquette
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION DIVIDER -->
+    <div class="section-divider"></div>
+
     <!-- FORMULARIO SECTION -->
     <section id="formulario" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
         <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <!-- Imagen -->
             <div class="hidden md:block order-last">
-                <img src="04_complete_set_v2.png" alt="Complete Infinity Rose Set" class="w-full h-auto rounded-lg shadow-2xl">
+                <img src="04_complete_set_v2.png" alt="Ensemble complet Infinity Rose" class="w-full h-auto rounded-lg shadow-2xl">
             </div>
 
             <!-- Formulario -->
@@ -246,7 +297,7 @@
                     Demande B2B
                 </h2>
                 <p class="text-gray-300 mb-12 text-lg leading-relaxed">
-                    Demandez nos tarifs préférentiels B2B ou renseignez-vous sur la possibilité d'un échantillon gratuit pour votre hôtel.
+                    Demandez nos tarifs dégressifs B2B ou renseignez-vous sur la possibilité d'obtenir un échantillon gratuit pour votre hôtel.
                 </p>
 
                 <!-- FORMULARIO CONTAINER -->
@@ -262,7 +313,7 @@
                                 id="hotel_name" 
                                 name="hotel_name" 
                                 required 
-                                placeholder="ex. Hôtel Ritz Paris"
+                                placeholder="p. ex. Hôtel Adlon Kempinski"
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
                             >
                         </div>
@@ -277,7 +328,7 @@
                                 id="contact_person" 
                                 name="contact_person" 
                                 required 
-                                placeholder="ex. Marie Dupont, Guest Relations Manager"
+                                placeholder="p. ex. Jean Dupont, Responsable Relations Clients"
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
                             >
                         </div>
@@ -292,7 +343,7 @@
                                 id="email" 
                                 name="email" 
                                 required 
-                                placeholder="marie.dupont@hotel.fr"
+                                placeholder="jean.dupont@hotel.fr"
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
                             >
                         </div>
@@ -300,7 +351,7 @@
                         <!-- Interesse an (Dropdown) - MEJORADO -->
                         <div>
                             <label for="interest" class="block text-sm font-semibold text-gray-300 mb-2">
-                                Intérêt pour <span class="text-red-500">*</span>
+                                Vous souhaitez <span class="text-red-500">*</span>
                             </label>
                             <select 
                                 id="interest" 
@@ -308,25 +359,32 @@
                                 required 
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300"
                             >
-                                <option value="" disabled selected class="text-gray-500">-- Veuillez sélectionner --</option>
+                                <option value="" disabled selected class="text-gray-500">-- Veuillez choisir --</option>
                                 <option value="Musterbox">Demander un échantillon gratuit</option>
-                                <option value="Testbestellung">Commande test (50-100 pièces)</option>
-                                <option value="Grossbestellung">Planifier une commande importante (500+ pièces)</option>
+                                <option value="Testbestellung">Prévoir une commande test (50 à 100 unités)</option>
+                                <option value="Grossbestellung">Prévoir une commande importante (500+ unités)</option>
                             </select>
                         </div>
 
                         <!-- Nachricht (Optional) -->
                         <div>
                             <label for="message" class="block text-sm font-semibold text-gray-300 mb-2">
-                                Message <span class="text-gray-500">(Facultatif)</span>
+                                Message <span class="text-gray-500">(facultatif)</span>
                             </label>
                             <textarea 
                                 id="message" 
                                 name="message" 
                                 rows="5" 
-                                placeholder="Partagez avec nous vos besoins spécifiques ou vos questions..."
+                                placeholder="Faites-nous part de vos besoins spécifiques ou de vos questions..."
                                 class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 focus:ring-1 focus:ring-yellow-600 transition duration-300 resize-none"
                             ></textarea>
+                        </div>
+
+                        <div style="margin-bottom: 15px; display: flex; align-items: flex-start; gap: 10px;">
+                            <input type="checkbox" id="b2b_confirm" name="b2b_confirm" required style="margin-top: 4px;">
+                            <label for="b2b_confirm" style="color: #a0aec0; font-size: 14px; line-height: 1.4;">
+                                Je confirme que je soumets cette demande en tant qu'entreprise/professionnel, et non en tant que consommateur.
+                            </label>
                         </div>
 
                         <!-- Submit Button - TEXTO MEJORADO -->
@@ -335,17 +393,17 @@
                           id="submitBtn"
                           class="w-full px-6 py-4 btn-gold rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition duration-300"
                          >
-                          Faire une demande sans engagement
+                          Envoyer ma demande sans engagement
                          </button>
 
 
                         <!-- CONFIANZA FINANCIERA - MEJORADO -->
                         <p class="text-xs text-gray-400 text-center mt-4 italic">
-                            Achat sur facture pour les hôtels (net à 14 jours)
+                            Paiement sur facture pour les hôtels (net à 14 jours)
                         </p>
 
                         <p class="text-xs text-gray-500 text-center mt-4">
-                            Vos données sont traitées de manière confidentielle et utilisées uniquement pour le traitement de votre demande.
+                            Vos données sont traitées en toute confidentialité et utilisées uniquement pour le traitement de votre demande.
                         </p>
                     </form>
                 </div>
@@ -355,7 +413,7 @@
                     <div class="card-dark rounded-lg p-8 border-2 gold-border">
                         <h3 class="text-2xl font-bold accent-gold mb-4">✓ Demande reçue</h3>
                         <p class="text-gray-300 text-lg leading-relaxed">
-                            Merci. Notre équipe B2B vous contactera prochainement afin de coordonner l'envoi de votre échantillon gratuit.
+                            Merci beaucoup. Notre équipe B2B vous contactera très prochainement afin de coordonner l'envoi de votre échantillon gratuit.
                         </p>
                     </div>
                 </div>
@@ -370,11 +428,13 @@
     <footer class="card-dark border-t border-gray-700 py-12 px-4 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto text-center">
             <p class="text-gray-500 mb-4">
-                © 2026 Nueva Vida - Roses Éternelles. Felipe Alonso (Entreprise individuelle).
+                © 2026 Nueva Vida - Roses Éternelles. Felipe Alonso (Entreprise Individuelle).
             </p>
             <div class="space-x-6 text-gray-600 text-sm">
                 <a href="impressum.html" target="_blank" class="hover:text-gray-400 transition duration-300">Mentions légales</a>
-                <a href="datenschutz.html" target="_blank" class="hover:text-gray-400 transition duration-300">Politique de confidentialité</a>
+                <a href="agb-fr.html" target="_blank" class="hover:text-gray-400 transition duration-300">CGV</a>
+                <a href="datenschutz.html" target="_blank" class="hover:text-gray-400 transition duration-300">Confidentialité</a>
+                <a href="https://shop.nuevavida-ftv.de/fr.html" target="_blank" class="hover:text-gray-400 transition duration-300">Vers la boutique grand public</a>
             </div>
         </div>
     </footer>
@@ -416,7 +476,7 @@
                     successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 } else {
                     // Error en respuesta
-                    alert('Un problème est survenu lors de l\'envoi. Veuillez réessayer plus tard.');
+                    alert("Un problème est survenu lors de l'envoi. Veuillez réessayer plus tard.");
                     submitBtn.disabled = false;
                     submitBtn.textContent = originalText;
                 }
