@@ -213,7 +213,7 @@
             <div class="card-dark rounded-lg border border-gray-700 overflow-hidden hover:border-[#D4AF37] transition duration-300">
                 <img src="11_allergiker_spa.png" alt="Allergikerfreundlich" class="w-full h-48 object-cover">
                 <div class="p-6">
-                    <h3 class="text-xl font-bold text-white mb-3">Allergikerfreundlich & Nachhaltig</h3>
+                    <h3 class="text-xl font-bold text-white mb-3">Allergikerfreundlich & Langlebig</h3>
                     <p class="text-gray-400 leading-relaxed text-sm">Kein Plastik, keine Seide. 100% echte Rosen, mit pflanzlichem Glycerin konserviert. Sie sind geruchsneutral, ohne Pollen und bewahren ihre Schönheit 1 bis 3 Jahre. Eine überragende CO2-Bilanz im Vergleich zu Schnittblumen.</p>
                 </div>
             </div>
@@ -223,7 +223,7 @@
                 <img src="12_logistik_event.png" alt="Sichere B2B-Logistik" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-bold text-white mb-3">Sichere B2B-Logistik</h3>
-                    <p class="text-gray-400 leading-relaxed text-sm">Auf dem Höhepunkt ihrer Blüte in Ecuador geerntet und in Handarbeit gefertigt. Mit unserem lokalen Lager in Deutschland garantieren wir zuverlässige Skalierbarkeit und schnelle Nachlieferung für Ihre Eventsaison.</p>
+                    <p class="text-gray-400 leading-relaxed text-sm">Auf dem Höhepunkt ihrer Blüte in Ecuador geerntet und in Handarbeit gefertigt. Mit unserem lokalen Lager in Deutschland stellen wir sicher zuverlässige Skalierbarkeit und schnelle Nachlieferung für Ihre Eventsaison.</p>
                 </div>
             </div>
         </div>
@@ -242,10 +242,10 @@
                 <!-- Columna de Texto -->
                 <div>
                     <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
-                        Der moderne Weg: <span class="accent-gold">Nachhaltige Eleganz</span>
+                        Der moderne Weg: <span class="accent-gold">Zeitlose Eleganz</span>
                     </h2>
                     <p class="text-gray-300 text-lg mb-8 leading-relaxed">
-                        Schnittblumen sind nicht mehr zeitgemäß. Sie verursachen Müll, binden wertvolle Zeit Ihres Housekeeping-Teams und verwelken nach wenigen Tagen. Heben Sie sich von der Konkurrenz ab: Bieten Sie Ihren Gästen echte, konservierte Rosen, die 1 bis 3 Jahre makellos blühen. Ein klares Statement für modernen Luxus und Nachhaltigkeit.
+                        Schnittblumen sind nicht mehr zeitgemäß. Sie verursachen Müll, binden wertvolle Zeit Ihres Housekeeping-Teams und verwelken nach wenigen Tagen. Heben Sie sich von der Konkurrenz ab: Bieten Sie Ihren Gästen echte, konservierte Rosen, die 1 bis 3 Jahre makellos blühen. Ein klares Statement für modernen und ressourcenschonenden Luxus.
                     </p>
                     
                     <div class="space-y-6">
