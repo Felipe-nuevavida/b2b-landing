@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abmeldung - Nueva Vida B2B</title>
+    <link rel="icon" type="image/png" href="logo_gold.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        * { font-family: 'Lato', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; letter-spacing: 0.05em; }
+        body { background-color: #111111; color: #E8E8E8; }
+        .accent-gold { color: #D4AF37; }
+        .card-dark { background-color: #2A2A2A; }
+        .gold-border { border: 2px solid #D4AF37; }
+        .loading-spinner {
+            display: inline-block; width: 22px; height: 22px;
+            border: 3px solid rgba(212, 175, 55, 0.25);
+            border-radius: 50%; border-top-color: #D4AF37;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .state { display: none; }
+        .state.show { display: block; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <header class="card-dark border-b border-gray-700 shadow-lg">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-center items-center">
+            <div class="flex items-center space-x-3">
+                <img src="logo_gold.png" alt="Logo Nueva Vida" class="h-10 w-auto">
+                <h1 class="text-2xl font-bold accent-gold tracking-widest">NUEVA VIDA</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16">
+        <div class="max-w-lg w-full">
+
+            <div id="stateLoading" class="state show text-center">
+                <div class="card-dark rounded-lg p-10 border border-gray-600">
+                    <div class="flex justify-center mb-6"><span class="loading-spinner"></span></div>
+                    <h2 class="text-xl font-bold text-white mb-2">Ihre Anfrage wird bearbeitet...</h2>
+                    <p class="text-gray-400 text-sm">Bitte haben Sie einen Moment Geduld.</p>
+                </div>
+            </div>
+
+            <div id="stateSuccess" class="state text-center">
+                <div class="card-dark rounded-lg p-10 border-2 gold-border">
+                    <div class="text-5xl mb-4">✓</div>
+                    <h2 class="text-2xl font-bold accent-gold mb-4">Abmeldung bestätigt</h2>
+                    <p class="text-gray-300 leading-relaxed mb-2">
+                        Sie wurden erfolgreich von unseren Mitteilungen abgemeldet.
+                    </p>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Sie erhalten keine weiteren E-Mails mehr von Nueva Vida an die Adresse
+                        <span id="emailConfirm" class="accent-gold font-semibold"></span>.
+                    </p>
+                </div>
+            </div>
+
+            <div id="stateError" class="state text-center">
+                <div class="card-dark rounded-lg p-10 border border-red-800">
+                    <div class="text-5xl mb-4">⚠️</div>
+                    <h2 class="text-2xl font-bold text-red-400 mb-4">Ein Fehler ist aufgetreten</h2>
+                    <p class="text-gray-300 leading-relaxed mb-6">
+                        Wir konnten Ihre Abmeldung nicht automatisch verarbeiten.
+                        Bitte schreiben Sie uns direkt an die untenstehende Adresse, wir bearbeiten Ihre Anfrage innerhalb von 48 Stunden.
+                    </p>
+                    <a href="mailto:felipealonso@nuevavida-ftv.de?subject=Abmeldung"
+                       class="inline-block px-6 py-3 border border-[#D4AF37] text-[#D4AF37] rounded-lg font-semibold hover:bg-[#D4AF37] hover:text-[#111111] transition duration-300">
+                        Per E-Mail kontaktieren
+                    </a>
+                </div>
+            </div>
+
+            <div id="stateMissing" class="state text-center">
+                <div class="card-dark rounded-lg p-10 border border-gray-600">
+                    <h2 class="text-xl font-bold text-white mb-4">Ungültiger Link</h2>
+                    <p class="text-gray-400 leading-relaxed mb-6">
+                        Dieser Abmeldelink enthält keine gültige E-Mail-Adresse.
+                        Bitte verwenden Sie den Link aus der erhaltenen E-Mail oder kontaktieren Sie uns direkt.
+                    </p>
+                    <a href="mailto:felipealonso@nuevavida-ftv.de?subject=Abmeldung"
+                       class="inline-block px-6 py-3 border border-[#D4AF37] text-[#D4AF37] rounded-lg font-semibold hover:bg-[#D4AF37] hover:text-[#111111] transition duration-300">
+                        Per E-Mail kontaktieren
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="card-dark border-t border-gray-700 py-8 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center">
+            <p class="text-gray-500 text-sm mb-3">
+                © 2026 Nueva Vida - Roses Éternelles. Felipe Alonso (Einzelunternehmen).
+            </p>
+            <div class="space-x-6 text-gray-600 text-xs">
+                <a href="index.html" class="hover:text-gray-400 transition duration-300">Zurück zum B2B-Portal</a>
+                <a href="datenschutz.html" target="_blank" class="hover:text-gray-400 transition duration-300">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ============================================================
+        // KONFIGURATION — vor Veröffentlichung durch echten Endpoint ersetzen
+        // ============================================================
+        const GOOGLE_FORM_ACTION = "https://docs.google.com/forms/d/e/TU_FORM_ID/formResponse";
+        const GOOGLE_FORM_EMAIL_FIELD = "entry.TU_ENTRY_ID";
+
+        function showState(id) {
+            document.querySelectorAll('.state').forEach(el => el.classList.remove('show'));
+            document.getElementById(id).classList.add('show');
+        }
+
+        const params = new URLSearchParams(window.location.search);
+        const email = (params.get("email") || "").trim();
+        const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!email || !EMAIL_REGEX.test(email)) {
+            showState('stateMissing');
+        } else {
+            document.getElementById('emailConfirm').textContent = email;
+            const formData = new URLSearchParams();
+            formData.append(GOOGLE_FORM_EMAIL_FIELD, email);
+
+            fetch(GOOGLE_FORM_ACTION, {
+                method: "POST",
+                mode: "no-cors",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: formData.toString()
+            })
+            .then(() => { showState('stateSuccess'); })
+            .catch(() => { showState('stateError'); });
+        }
+    </script>
+
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ac0ff9218a334698ab8e5faa8fbf6bbd"}'></script>
+</body>
+</html>
