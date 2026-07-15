@@ -12,49 +12,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
 
     <style>
-        * {
-            font-family: 'Lato', sans-serif;
-        }
-        h1, h2, h3 {
-            font-family: 'Playfair Display', serif;
-            letter-spacing: 0.05em;
-        }
-        body {
-            background-color: #111111;
-            color: #E8E8E8;
-        }
-        .accent-gold {
-            color: #D4AF37;
-        }
-        .card-dark {
-            background-color: #2A2A2A;
-        }
-        .gold-border {
-            border: 2px solid #D4AF37;
-        }
+        * { font-family: 'Lato', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; letter-spacing: 0.05em; }
+        body { background-color: #111111; color: #E8E8E8; }
+        .accent-gold { color: #D4AF37; }
+        .card-dark { background-color: #2A2A2A; }
+        .gold-border { border: 2px solid #D4AF37; }
         .loading-spinner {
-            display: inline-block;
-            width: 22px;
-            height: 22px;
+            display: inline-block; width: 22px; height: 22px;
             border: 3px solid rgba(212, 175, 55, 0.25);
-            border-radius: 50%;
-            border-top-color: #D4AF37;
+            border-radius: 50%; border-top-color: #D4AF37;
             animation: spin 0.8s linear infinite;
         }
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        .state {
-            display: none;
-        }
-        .state.show {
-            display: block;
-        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .state { display: none; }
+        .state.show { display: block; }
     </style>
 </head>
 <body class="min-h-screen flex flex-col">
 
-    <!-- HEADER -->
     <header class="card-dark border-b border-gray-700 shadow-lg">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-center items-center">
             <div class="flex items-center space-x-3">
@@ -64,22 +40,17 @@
         </div>
     </header>
 
-    <!-- CONTENU PRINCIPAL -->
     <main class="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16">
         <div class="max-w-lg w-full">
 
-            <!-- ÉTAT : EN COURS -->
             <div id="stateLoading" class="state show text-center">
                 <div class="card-dark rounded-lg p-10 border border-gray-600">
-                    <div class="flex justify-center mb-6">
-                        <span class="loading-spinner"></span>
-                    </div>
+                    <div class="flex justify-center mb-6"><span class="loading-spinner"></span></div>
                     <h2 class="text-xl font-bold text-white mb-2">Traitement de votre demande...</h2>
                     <p class="text-gray-400 text-sm">Veuillez patienter un instant.</p>
                 </div>
             </div>
 
-            <!-- ÉTAT : SUCCÈS -->
             <div id="stateSuccess" class="state text-center">
                 <div class="card-dark rounded-lg p-10 border-2 gold-border">
                     <div class="text-5xl mb-4">✓</div>
@@ -94,7 +65,6 @@
                 </div>
             </div>
 
-            <!-- ÉTAT : ERREUR -->
             <div id="stateError" class="state text-center">
                 <div class="card-dark rounded-lg p-10 border border-red-800">
                     <div class="text-5xl mb-4">⚠️</div>
@@ -110,7 +80,6 @@
                 </div>
             </div>
 
-            <!-- ÉTAT : PAS D'EMAIL DANS L'URL -->
             <div id="stateMissing" class="state text-center">
                 <div class="card-dark rounded-lg p-10 border border-gray-600">
                     <h2 class="text-xl font-bold text-white mb-4">Lien invalide</h2>
@@ -128,7 +97,6 @@
         </div>
     </main>
 
-    <!-- FOOTER -->
     <footer class="card-dark border-t border-gray-700 py-8 px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto text-center">
             <p class="text-gray-500 text-sm mb-3">
@@ -143,13 +111,10 @@
 
     <script>
         // ============================================================
-        // CONFIGURACIÓN — sustituye por el endpoint real antes de publicar
+        // CONFIGURATION — remplacer par l'endpoint réel avant publication
         // ============================================================
-        // Opción recomendada: un Google Form con un único campo "Email",
-        // enviado por POST a la URL de formResponse.
-        // Reemplaza estos dos valores con los de tu formulario real:
-        const GOOGLE_FORM_ACTION = "https://docs.google.com/forms/d/e/TU_FORM_ID/formResponse";
-        const GOOGLE_FORM_EMAIL_FIELD = "entry.TU_ENTRY_ID"; // ID del campo "Email" del formulario
+        const GOOGLE_FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLScADayOhabjo4xZyLu0QgvsdQzCpg6txEz4WRwjXUvvuR7KWw/formResponse";
+        const GOOGLE_FORM_EMAIL_FIELD = "entry.1405615726";
 
         function showState(id) {
             document.querySelectorAll('.state').forEach(el => el.classList.remove('show'));
@@ -158,35 +123,26 @@
 
         const params = new URLSearchParams(window.location.search);
         const email = (params.get("email") || "").trim();
-
         const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
         if (!email || !EMAIL_REGEX.test(email)) {
             showState('stateMissing');
         } else {
             document.getElementById('emailConfirm').textContent = email;
-
             const formData = new URLSearchParams();
             formData.append(GOOGLE_FORM_EMAIL_FIELD, email);
 
-            // Google Forms no permite leer la respuesta (CORS), así que usamos
-            // no-cors: si el POST no lanza excepción, asumimos éxito.
             fetch(GOOGLE_FORM_ACTION, {
                 method: "POST",
                 mode: "no-cors",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: formData.toString()
             })
-            .then(() => {
-                showState('stateSuccess');
-            })
-            .catch(() => {
-                showState('stateError');
-            });
+            .then(() => { showState('stateSuccess'); })
+            .catch(() => { showState('stateError'); });
         }
     </script>
 
-    <!-- Cloudflare Web Analytics -->
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ac0ff9218a334698ab8e5faa8fbf6bbd"}'></script>
 </body>
 </html>
